@@ -1,0 +1,43 @@
+.cover__image {
+    margin: 0 auto;
+    max-width: 1184px;
+    min-height: 740px;
+    object-fit: cover;
+    background: url(../../../image/cover__background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+        max-width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__image {
+        min-height: 480px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .cover__image {     
+        min-height: 380px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cover__image {
+        background: url(../../../image/cover__background_360.png);
+        height: 240px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+

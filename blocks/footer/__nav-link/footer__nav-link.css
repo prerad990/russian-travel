@@ -1,0 +1,34 @@
+.footer__nav-link {
+    color: white;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 18px;
+    transition: opacity 1s;
+}
+
+.footer__nav-link:nth-child(5) {
+    padding-right: 0px;
+}
+
+.footer__nav-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__nav-link {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__nav-link {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 32px;
+        font-size: 24px;
+    }
+    
+}

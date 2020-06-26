@@ -1,0 +1,36 @@
+@import url(./__lang-item/header__lang-item.css);
+@import url(./__lang/hrader__lang.css);
+@import url(./__logo/header__logo.css);
+
+.header {
+    max-width: 1184px;
+    background-color: #2A2C2F ;
+    padding-top: 30px;
+    margin: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header {
+        max-width: 510px;
+        margin: 0 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        padding-top: 16px;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}

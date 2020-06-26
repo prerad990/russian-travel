@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-item/_underline/header__lang-item_underline.css); /*пробовал подключить через header.css, не заработал*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+.out {
+    outline: 1px solid red;
+}

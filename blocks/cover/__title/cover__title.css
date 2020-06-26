@@ -1,0 +1,33 @@
+.cover__title {
+    position: relative;
+    z-index: 10;
+    max-width: 560px;
+    color: white;
+    font-size: 72px;
+    line-height: 1.06;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    transition: opacity 1s;
+    }
+
+    .cover__title:hover {
+        opacity: .8;
+    }
+
+@media screen and (max-width: 560px) {
+    .cover__title {
+        font-size: 45px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cover__title {
+        width: 320px;
+        font-size: 32px;
+    }
+}
+
+
